@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Object Creation</title>
+	<script type="text/javascript">
+		var s= new Object();
+		s.fname="sravya";
+		s.lname="yeleti";
+		function sFullName(){
+			document.write("Hello this is my fullname" +s.fname+s.lname);
+		}
+		s.fullname=sFullName;
+		
+	</script>
+	
+</head>
+<body>
+<h1>Hello</h1>
+	<script>
+	document.write("sfname is "+s.fname+"<br/>");
+			document.write("mary.middleName is "+s.lname+"<br/>");
+			
+			s.fullname();
+</script>
+</body>
+</html>
